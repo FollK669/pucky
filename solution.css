@@ -1,0 +1,201 @@
+body {
+    font-family: "Poppins", sans-serif;
+
+    background-color: dimgray;
+    background-image: url("./assets/images/backk.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+    font-size: 5rem;
+    color: grey;
+    text-align: center;
+}
+.flashy-text {
+    text-align: center;
+    color: white;
+    border: 2px solid pink;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: mediumvioletred;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+    .flashy-text:hover {
+        background-color: hotpink;
+        border-color: hotpink;
+        transform: scale(1.05);
+    }
+
+    .flashy-text:active {
+        background-color: mediumvioletred;
+        border-color: mediumvioletred;
+        transform: scale(1.02);
+    }
+
+
+.flashy-button {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+}
+
+    .flashy-button:hover {
+        background-color: hotpink;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        transform: scale(1.1);
+    }
+
+    .flashy-button:active {
+        background-color: mediumvioletred;
+        transform: scale(1.05);
+    }
+
+
+h3 {
+    font-size: 2rem;
+    color: grey;
+    text-align: center;
+}
+
+p {
+    color: grey;
+    font-size: 2rem;
+    white-space:  break-spaces;
+}
+
+footer {
+  text-align: right;
+  color: darkred;
+  font-size: 0.5rem;
+}
+
+.footy
+{
+    text-align: center;
+    color: deeppink;
+    font-size: 1rem;
+}
+
+.tile-image {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin-right: 50px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+
+}
+
+.right {
+  float: right;
+}
+
+.creative {
+  color: darkred;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+@media (max-width: 680px) {
+
+    body {
+        font-family: "Poppins", sans-serif;
+        background-color: dimgray;
+        background-image: url("./assets/images/backk.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        min-height: 95vh;
+    }
+
+
+    .logo {
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+    h3 {
+        font-size: 1.5rem;
+        color: grey;
+        text-align: center;
+    }
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 980px) {
+
+    .tile-image {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 250px;
+        height: 350px;
+        width: 580px;
+        float: left;
+        margin-right: 50px;
+    }
+
+
+}
+
+@media (min-width: 1380px) {
+
+    .tile-image {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 250px;
+        height: 500px;
+        width: 760px;
+        float: left;
+        margin-right: 50px;
+    }
+}
